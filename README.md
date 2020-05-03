@@ -1,4 +1,6 @@
 This is a project to design an open source FIE-spec wireless fencing system, at a reasonable price. It currently doesn't have a name, any suggestions are appreciated.
+
+Current SITREP:  The basic radio idea works - onwards towards a functional prototype. I have an idea of using some commodity ISM transceivers (at very low power or attenuated) to send and detect the radio signals. These transceivers have a feature called RSSI (Received Signal Strength Indicator) which could be used to measure the property described below. This would eliminate a large amount of circuitry, although there may be issues with RSSI sampling rate and resolution etc. 
 # Why Wireless Fencing
 ## Cost 
 Fencing is expensive: Equipment for the Fencer isn't too bad (£250 will get you sorted with equipment for Sabre - the most expensive weapon). Equipment for *fencing* (i.e. the fencing club)
